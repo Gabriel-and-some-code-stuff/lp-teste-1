@@ -2,7 +2,8 @@
 export default {
   content: [
     "./index.html",
-    "./**/*.{js,ts,jsx,tsx}",
+    "./*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -12,11 +13,11 @@ export default {
           secondary: '#333333',
           accent: '#28a745',
           surface: '#f8f9fa',
-        }
+        },
       },
       fontFamily: {
         sans: ['"Open Sans"', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
